@@ -19,3 +19,5 @@ ohmyzsh::install { 'acme': }
 
 
 class { "apache": }
+
+include byobu
