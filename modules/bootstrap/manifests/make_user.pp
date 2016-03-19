@@ -1,4 +1,4 @@
-define make_user(String $username, String $group) {
+define bootstrap::make_user(String $username, String $group) {
 
 	user { "$username":
 		name => "$username",
@@ -12,7 +12,7 @@ define make_user(String $username, String $group) {
 
 }
 
-make_user { 'make another user':
-	username => 'hello',	
-	group => 'sudo'
-}
+#make_user { 'make another user':
+#	username => 'hello',	
+#	group => 'sudo'
+#}

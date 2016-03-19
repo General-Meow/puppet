@@ -1,2 +1,5 @@
 .tmp/
-modules/
+modules/*
+!modules/bootstrap
+!modules/bootstrap/manifests
+!modules/bootstrap/files
