@@ -38,6 +38,7 @@ FORGE
       nanliu-staging (< 2.0.0, >= 0.4.1)
       puppetlabs-concat (< 2.0.0, >= 1.0.4)
       puppetlabs-stdlib (< 5.0.0, >= 4.2.0)
+    sund-htop (0.1.1)
 
 DEPENDENCIES
   acme-ohmyzsh (>= 0)
@@ -47,4 +48,5 @@ DEPENDENCIES
   fonk-openssh (>= 0)
   gini-gradle (>= 0)
   puppetlabs-tomcat (>= 0)
+  sund-htop (>= 0)
 

@@ -10,7 +10,7 @@ mod 'acme-ohmyzsh'
 mod 'example42-apache'
 mod 'adamstrawson-byobu'
 mod 'puppetlabs-tomcat'
-
+mod 'sund-htop'
 
 
 
