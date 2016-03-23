@@ -6,7 +6,7 @@
 #}
 
 #run custom boot strap 
-class {'bootstrap':
+class { 'bootstrap':
 	username => 'anotheruserhere',
 	group => 'sudo',
 }

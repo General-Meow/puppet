@@ -11,4 +11,7 @@ class bootstrap(String $username, String $group) {
 		username => "$username",
 		group => "$group",
 	}
+	class { 'bootstrap::change_ssh':
+		username => "$username",
+	}	
 }
