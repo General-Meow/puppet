@@ -1,9 +1,17 @@
-class{ 'java':
-  repository            => 'webupd8team',
-  distribution          => 'oracle',
-  release               => 'java8',
-  accept_oracle_license => true,
+# JAVA
+#class{ 'java':
+#  repository            => 'webupd8team',
+#  distribution          => 'oracle',
+#  release               => 'java8',
+#  accept_oracle_license => true,
+#}
+
+java::oracle { 'jdk8' :
+  ensure  => 'present',
+  version => '8',
+  java_se => 'jdk',
 }
+
 
 #class { 'gradle':
 #  version => '1.8',
