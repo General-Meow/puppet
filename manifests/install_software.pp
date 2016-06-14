@@ -6,12 +6,9 @@
 #  accept_oracle_license => true,
 #}
 
-java::oracle { 'jdk8' :
-  ensure  => 'present',
-  version => '8',
-  java_se => 'jdk',
+class { 'java' :
+  package => 'java-1.8.0-openjdk-devel',
 }
-
 
 #class { 'gradle':
 #  version => '1.8',
