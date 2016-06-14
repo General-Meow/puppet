@@ -17,10 +17,11 @@ class { 'java' :
 class { 'ohmyzsh': }
 ohmyzsh::install { 'paul': }
 ohmyzsh::theme { ['paul']: 
-	theme => 'robbyrussell',	
+#	theme => 'robbyrussell',	
+	theme => 'ys',
 }
 ohmyzsh::plugins { 'paul':
-	plugins => 'git github',	
+	plugins => 'git github mercurial tmux docker',	
 }
 ohmyzsh::upgrade { 'paul': }
 
