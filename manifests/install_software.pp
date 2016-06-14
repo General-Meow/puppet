@@ -10,6 +10,7 @@ class { 'java' :
   package => 'openjdk-8-jdk',
 }
 
+
 #class { 'gradle':
 #  version => '1.8',
 #}
@@ -35,3 +36,5 @@ class { "apache": }
 
 include htop
 include byobu
+include 'google_chrome'
+

@@ -5,7 +5,9 @@ forge "https://forgeapi.puppetlabs.com"
 
 mod 'fonk-openssh'
 #mod 'deric-java'
-mod 'puppet-archive'
+#There are two archive modules in the forge so specifically select one
+mod 'puppet-archive',
+ :git => "git://github.com/voxpupuli/puppet-archive"
 mod 'puppetlabs-java'
 mod 'gini-gradle'
 mod 'acme-ohmyzsh'
@@ -13,7 +15,7 @@ mod 'example42-apache'
 mod 'adamstrawson-byobu'
 mod 'puppetlabs-tomcat'
 mod 'sund-htop'
-
+mod 'jamesnetherton-google_chrome'
 
 
 # use dependencies defined in metadata.json
