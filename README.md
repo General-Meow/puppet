@@ -12,4 +12,5 @@ Usage:
 - sudo git remote add origin https://github.com/General-Meow/puppet.git
 - sudo git fetch origin master
 - sudo git reset --hard origin/master
+- sudo librarian-puppet update
 - sudo puppet apply manifests/site.pp
