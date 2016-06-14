@@ -5,6 +5,7 @@ forge "https://forgeapi.puppetlabs.com"
 
 mod 'fonk-openssh'
 #mod 'deric-java'
+mod 'puppetlabs-java'
 mod 'gini-gradle'
 mod 'acme-ohmyzsh'
 mod 'example42-apache'
