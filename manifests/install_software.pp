@@ -7,7 +7,7 @@
 #}
 
 class { 'java' :
-  package => 'oracle-jdk',
+  package => 'jdk',
 }
 
 #class { 'gradle':
