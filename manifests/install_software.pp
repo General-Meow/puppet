@@ -38,3 +38,5 @@ include htop
 include byobu
 include google_chrome
 include ssh::server
+include docker
+

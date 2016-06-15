@@ -23,6 +23,10 @@ FORGE
       example42-puppi (>= 2.0.0)
     example42-puppi (2.1.14)
     fonk-openssh (1.0.1)
+    garethr-docker (5.2.0)
+      puppetlabs-apt (<= 3.0.0, >= 1.8.0)
+      puppetlabs-stdlib (>= 4.1.0)
+      stahnma-epel (>= 0.0.6)
     gini-archive (0.2.1)
     gini-gradle (0.2.0)
       gini-archive (>= 0.1.0)
@@ -45,6 +49,8 @@ FORGE
     saz-ssh (2.8.1)
       puppetlabs-concat (>= 1.0.0)
       puppetlabs-stdlib (>= 2.2.1)
+    stahnma-epel (1.2.2)
+      puppetlabs-stdlib (>= 3.0.0)
     sund-htop (0.1.1)
 
 GIT
@@ -60,6 +66,7 @@ DEPENDENCIES
   adamstrawson-byobu (>= 0)
   example42-apache (>= 0)
   fonk-openssh (>= 0)
+  garethr-docker (>= 0)
   gini-gradle (>= 0)
   jamesnetherton-google_chrome (>= 0)
   puppet-archive (>= 0)
