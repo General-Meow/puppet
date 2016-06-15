@@ -7,7 +7,13 @@
 
 #run custom boot strap 
 class { 'bootstrap':
-	username => 'anotheruserhere',
+	username => 'paul',
 	group => 'sudo',
 }
 
+ssh_keygen { 'paul':
+  comment => 'pauls key',
+  type => 'rsa',
+  bits => '4096',
+  filename => '/home/paul/.ssh/id_rsa'
+}

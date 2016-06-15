@@ -37,6 +37,15 @@ class { "apache": }
 include htop
 include byobu
 include google_chrome
+
+#saz-ssh
 include ssh::server
-include docker
+ssh::server::host_key {'ssh_host_rsa_key':
+  private_key_source => 'file:///home/paul/.ssh/id_rsa',
+  public_key_source  => 'file:///home/paul/.ssh/id_rsa.pub',
+}
+
+#class { 'docker' :
+#  ensure => 'absent',
+#}
 

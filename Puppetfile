@@ -17,7 +17,8 @@ mod 'puppetlabs-tomcat'
 mod 'sund-htop'
 mod 'jamesnetherton-google_chrome'
 mod 'saz-ssh'
-mod 'garethr-docker'
+mod 'maestrodev-ssh_keygen'
+#mod 'garethr-docker'
 
 # use dependencies defined in metadata.json
 #metadata
