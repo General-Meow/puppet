@@ -38,3 +38,18 @@ include htop
 include byobu
 include 'google_chrome'
 
+class { 'ssh::server':
+  storeconfigs_enabled => false,
+  options => {
+    'Match User paul' => {
+      'ChrootDirectory' => '%h',
+      'ForceCommand' => 'internal-sftp',
+      'PasswordAuthentication' => 'yes',
+      'AllowTcpForwarding' => 'yes',
+      'X11Forwarding' => 'yes',
+    },
+    'PasswordAuthentication' => 'yes',
+    'PermitRootLogin'        => 'no',
+    'Port'                   => [22],
+  },
+}

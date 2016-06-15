@@ -16,6 +16,7 @@ mod 'adamstrawson-byobu'
 mod 'puppetlabs-tomcat'
 mod 'sund-htop'
 mod 'jamesnetherton-google_chrome'
+mod 'saz-ssh'
 
 
 # use dependencies defined in metadata.json
