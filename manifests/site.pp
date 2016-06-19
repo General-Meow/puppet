@@ -11,6 +11,12 @@ class { 'bootstrap':
 	group => 'sudo',
 }
 
+
+file { '/home/paul/.ssh/authorized_keys' :
+  ensure  => 'present',
+  source  => '/home/paul/.ssh/id_rsa.pub',
+}
+~>
 ssh_keygen { 'paul':
   comment => 'pauls key',
   type => 'rsa',
